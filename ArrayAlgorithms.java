@@ -35,7 +35,7 @@ public class ArrayAlgorithms {
 
    public int findMax() {
       // REQUIRED: return the largest integer in intArray
-      int record = -1;
+      int record = intArray[0];
       for (int n : intArray) {
          if (n > record) record = n;
       }
